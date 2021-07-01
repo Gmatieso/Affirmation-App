@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Affirmation</string>
-    <string name="affirmation1">I am strong.</string>
-    <string name="affirmation2">I believe in myself.</string>
+    <string name="affirmation1">No programmer, writes code with their fingers crossed, thats not how we deal with risks. You gat to solve your problems in one breath.</string>
+    <string name="affirmation2">There is a lot of hardwork ahead, and its a  hard computerScience problem, but its the type of challenge we love.</string>
     <string name="affirmation3">Each day is a new opportunity to grow and be a better version of myself.</string>
     <string name="affirmation4">Every challenge in my life is an opportunity to learn from.</string>
     <string name="affirmation5">I have so much to be grateful for.</string>
@@ -10,7 +10,6 @@
     <string name="affirmation8">I have the courage to follow my heart.</string>
     <string name="affirmation9">Things will unfold at precisely the right time.</string>
     <string name="affirmation10">I will be present in all the moments that this day brings.</string>
-    <string name="affirmation11">There is a lot of hardwork ahead, and its a  hard computerScience problem, but its the type of challenge we love</string>
-    <string name = "affirmation12">No programmer, writes code with their fingers crossed, thats not how we deal with risks. You gat to solve
-     your problems in one breath</string>
+    <string name="affirmation11">I believe in myself.</string>
+    <string name = "affirmation12">I am strong</string>
 </resources>
