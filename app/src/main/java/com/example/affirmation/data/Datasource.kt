@@ -1,4 +1,4 @@
-package com.example.affirmation.data
+ package com.example.affirmation.data
 
 import com.example.affirmation.R
 import com.example.affirmation.model.Affirmation
