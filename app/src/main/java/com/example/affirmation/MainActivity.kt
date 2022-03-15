@@ -6,14 +6,18 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.affirmation.adapter.ItemAdapter
 import com.example.affirmation.data.Datasource
+import com.example.affirmation.databinding.ActivityMainBinding
 
- // To be implemeted later
-//private  lateinit var binding: ActivityMainBinding
+private lateinit  var binding: ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+
+        
         // Initialize data.
         val myDataset = Datasource().loadAffirmations()
 
