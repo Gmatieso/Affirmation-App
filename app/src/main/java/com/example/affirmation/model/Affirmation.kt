@@ -7,5 +7,5 @@ data class Affirmation (
         @StringRes val stringResourceId: Int,
         @DrawableRes val imageResourceId: Int)
 {
-    // no code gone here     
+    // no code gone here
 }
