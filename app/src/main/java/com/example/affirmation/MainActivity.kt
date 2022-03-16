@@ -3,21 +3,21 @@ package com.example.affirmation
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.affirmation.adapter.ItemAdapter
 import com.example.affirmation.data.Datasource
 import com.example.affirmation.databinding.ActivityMainBinding
 
-private lateinit  var binding: ActivityMainBinding
+// To be implemeted later
+//private  lateinit var binding: ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        val view = binding.root
-        setContentView(view)
-
-        
+        setContentView(R.layout.activity_main)
+       // setContentView(R.layout.activity_main)
+        //val binding = DataBindingUtil.setContentView<ActivityMainBinding>()
         // Initialize data.
         val myDataset = Datasource().loadAffirmations()
 
